@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.tiptime"
+        applicationId "com.ikpb.gradecurvecalculator"
         minSdk 19
         targetSdk 31
         versionCode 1
