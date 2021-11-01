@@ -7,19 +7,15 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.tiptime"
+        applicationId "com.ikpb.affirmations"
         minSdk 19
         targetSdk 31
         versionCode 1
         versionName "1.0"
 
-        vectorDrawables.useSupportLibrary = true
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    buildFeatures {
-        viewBinding = true
-    }
+
     buildTypes {
         release {
             minifyEnabled false
